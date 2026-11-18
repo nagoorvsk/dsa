@@ -13,7 +13,7 @@ public class TwoSum {
                 System.out.println("Indexes are: " + i + " and " + j);
                 break;
             } else if (arr[i]+arr[j] < sum) {
-              i++;
+                i++;
             }else {
                 j--;
             }
