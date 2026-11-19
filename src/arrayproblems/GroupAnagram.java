@@ -15,6 +15,11 @@ public class GroupAnagram {
             String sortedString = new String(charArray);
 
             map.computeIfAbsent(sortedString, value -> new ArrayList<>()).add(str);
+            //if (!map.containsKey(sortedString)) {
+            //    map.put(sortedString, new ArrayList<>());
+            //}
+            //
+            //map.get(sortedString).add(str);
         }
 
         System.out.println(map);
